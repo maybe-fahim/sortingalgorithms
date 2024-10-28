@@ -1,0 +1,4 @@
+{
+  "presets" : ["es2015", "react"]
+  //Presets are sets of plugins that support particular language features.
+}
