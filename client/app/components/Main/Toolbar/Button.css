@@ -1,0 +1,21 @@
+.custom-button {
+    background-color: #34495e;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 16px;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .custom-button:hover {
+    background-color: rgba(78, 216, 96, 0.8);
+  }
+  
+  .custom-button:disabled {
+    background-color: rgba(150, 150, 150, 0.8);
+    cursor: not-allowed;
+  }
+  

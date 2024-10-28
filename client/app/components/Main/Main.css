@@ -6,4 +6,11 @@ body {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  font-family: 'Helvetica', sans-serif; /* Use Helvetica globally */
+}
+
+#mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align for main layout */
 }
