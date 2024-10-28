@@ -1,21 +1,21 @@
+/* Button.css */
 .custom-button {
-    background-color: #34495e;
-    border: none;
-    border-radius: 5px;
-    color: white;
-    cursor: pointer;
-    font-family: 'Helvetica', sans-serif;
-    font-size: 16px;
-    padding: 10px 15px;
-    transition: background-color 0.3s ease;
-  }
-  
-  .custom-button:hover {
-    background-color: rgba(78, 216, 96, 0.8);
-  }
-  
-  .custom-button:disabled {
-    background-color: rgba(150, 150, 150, 0.8);
-    cursor: not-allowed;
-  }
-  
+  background-color: #444; /* Dark gray button background */
+  color: white; /* White text */
+  border: none; /* No border */
+  padding: 10px 15px; /* Padding for the button */
+  margin: 5px; /* Spacing around buttons */
+  border-radius: 5px; /* Rounded corners */
+  font-family: 'Helvetica', sans-serif; /* Use the Google Font */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth background transition */
+}
+
+.custom-button:hover {
+  background-color: #555; /* Lighter gray on hover */
+}
+
+.custom-button:disabled {
+  background-color: #333; /* Darker gray for disabled state */
+  cursor: not-allowed; /* Not allowed cursor */
+}

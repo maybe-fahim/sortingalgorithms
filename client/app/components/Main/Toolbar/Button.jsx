@@ -1,17 +1,13 @@
-import React from "react";
-import "./Button.css";
+// src/components/Button.jsx
+import React from 'react';
+import './Button.css'; // Ensure to create this file for button styles
 
-const Button = ({ children, onClick, disabled, className, style }) => {
-  return (
-    <button
-      className={`custom-button ${className}`}
-      onClick={onClick}
-      disabled={disabled}
-      style={style}
-    >
-      {children}
-    </button>
-  );
+const Button = ({ onClick, children, className }) => {
+    return (
+        <button className={`custom-button ${className}`} onClick={onClick}>
+            {children}
+        </button>
+    );
 };
 
 export default Button;
